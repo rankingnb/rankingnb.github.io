@@ -1,6 +1,6 @@
 ﻿@font-face {
-    font-family: "Press Start 2P";
-    src: url(PressStart2P.ttf) format("truetype");
+    font-family: "Super Mario Kart";
+    src: url(super-mario-kart.ttf) format("truetype");
 }
 
 body {
@@ -22,13 +22,59 @@ body {
 }
 
 .wrapper p{
-	color: #fff;
-	font-family: "Press Start 2P";
-	font-size: 66px;
-	-webkit-text-stroke-width: 4px;
-	-webkit-text-stroke-color: #006de4;
-	margin: 0;
+	display: inline;
+	color: #3480ef;
+	font-family: "Super Mario Kart";
+	font-size: 28px;	
+	padding-top: 28px;
+	text-shadow:
+	-3.5px -3.5px 0 white,
+   0   -3.5px 0 white,
+   3.5px -3.5px 0 white,
+   3.5px  0   0 white,
+   3.5px  3.5px 0 white,
+   0    3.5px 0 white,
+  -3.5px  3.5px 0 white,
+  -3.5px  0   0 white,
+  -3.5px -3.5px 0 white,
+   0   -3.5px 0 white,
+   3.5px -3.5px 0 white,
+   3.5px  0   0 white,
+   3.5px  3.5px 0 white,
+   0    3.5px 0 white,
+  -3.5px  3.5px 0 white,
+  -3.5px  0   0 white,
+  -3.5px -3.5px 0 white,
+   0   -3.5px 0 white,
+   3.5px -3.5px 0 white,
+   3.5px  0   0 white,
+   3.5px  3.5px 0 white,
+   0    3.5px 0 white,
+  -3.5px  3.5px 0 white,
+  -3.5px  0   0 white,
+  -3.5px -3.5px 0 white,
+   0   -3.5px 0 white,
+   3.5px -3.5px 0 white,
+   3.5px  0   0 white,
+   3.5px  3.5px 0 white,
+   0    3.5px 0 white,
+  -3.5px  3.5px 0 white,
+  -3.5px  0   0 white;	
+  margin: 0;
+  animation: aparecer 1s ease 1 normal;
 }
+
+ @keyframes aparecer {
+        0% {
+            opacity: 0;
+        }
+        99% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
 
 @keyframes animate{
 	from{
