@@ -1,0 +1,40 @@
+﻿@font-face {
+    font-family: "Press Start 2P";
+    src: url(PressStart2P.ttf) format("truetype");
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+}
+
+.wrapper{
+	box-sizing: border-box;
+	background: url(fundo.png);
+	background-repeat: repeat;
+	width: 100%;
+	margin: 0;
+	text-align: center;
+	height: 100vh;
+	padding-top: 28px;
+	animation: animate 4s linear infinite;
+}
+
+.wrapper p{
+	color: #fff;
+	font-family: "Press Start 2P";
+	font-size: 66px;
+	-webkit-text-stroke-width: 4px;
+	-webkit-text-stroke-color: #006de4;
+	margin: 0;
+}
+
+@keyframes animate{
+	from{
+		background-position: 0 0;
+	}
+	to{
+		background-position: 1280px 0;
+	}
+}
