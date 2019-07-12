@@ -11,6 +11,31 @@ body {
 .primeiro{
     animation: aparecer 1s ease 1 normal;
 }
+.segundo{
+    animation: aparecer 1.2s ease 1 normal;
+}
+.terceiro{
+    animation: aparecer 1.4s ease 1 normal;
+}
+.quarto{
+    animation: aparecer 1.6s ease 1 normal;
+}
+.quinto{
+    animation: aparecer 1.8s ease 1 normal;
+}
+.sexto{
+    animation: aparecer 2s ease 1 normal;
+}
+.setimo{
+    animation: aparecer 2.2s ease 1 normal;
+}
+.oitavo{
+    animation: aparecer 2.4s ease 1 normal;
+}
+.pontinho{
+    font-size: 13px;
+    -webkit-text-stroke: 1px #3480ef;
+}
 .wrapper{
 	box-sizing: border-box;
 	background: url(fundo.png);
