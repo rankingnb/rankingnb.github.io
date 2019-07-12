@@ -32,10 +32,7 @@ body {
 .oitavo{
     animation: aparecer 2.4s ease 1 normal;
 }
-.pontinho{
-    font-size: 13px;
-    -webkit-text-stroke: 1px #3480ef;
-}
+
 .wrapper{
 	box-sizing: border-box;
 	background: url(fundo.png);
@@ -88,9 +85,13 @@ body {
   -3.5px  3.5px 0 white,
   -3.5px  0   0 white;	
   margin: 0;
-  animation: aparecer 1s ease 1 normal;
 }
-
+#pontinho{
+    font-size: 40px;
+    text-shadow:none;
+    -webkit-text-stroke: 1px white;
+    letter-spacing: -21px;
+}
  @keyframes aparecer {
         0% {
             opacity: 0;
