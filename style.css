@@ -188,7 +188,7 @@ div.doze p{
 	display: inline;
 	font-family: "Super Mario Kart";
 	font-size: 28px;	
-	/*padding-top: 28px;*/
+	-moz-padding-top: 20px;
 	text-shadow:
 	-3.5px -3.5px 0 #3480ef,
    0   -3.5px 0 #3480ef,
