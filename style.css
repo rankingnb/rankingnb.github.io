@@ -9,28 +9,36 @@ body {
 	height: 100vh;
 }
 .primeiro{
-    animation: aparecer 1s ease 1 normal;
+    animation: aparecer 1s linear 1 normal;
+    animation: sumir 10s linear 1 normal forwards;
 }
 .segundo{
     animation: aparecer 1.2s ease 1 normal;
+    animation: sumir 10s linear 1 normal forwards;
 }
 .terceiro{
     animation: aparecer 1.4s ease 1 normal;
+    animation: sumir 10s linear 1 normal forwards;
 }
 .quarto{
     animation: aparecer 1.6s ease 1 normal;
+    animation: sumir 10s linear 1 normal forwards;
 }
 .quinto{
     animation: aparecer 1.8s ease 1 normal;
+    animation: sumir 10s linear 1 normal forwards;
 }
 .sexto{
     animation: aparecer 2s ease 1 normal;
+    animation: sumir 10s linear 1 normal forwards;
 }
 .setimo{
     animation: aparecer 2.2s ease 1 normal;
+    animation: sumir 10s linear 1 normal forwards;
 }
 .oitavo{
-    animation: aparecer 2.4s ease 1 normal;
+    animation: aparecer 14.4s ease 1 normal;
+    animation: sumir 20s linear 1 normal forwards;
 }
 
 .wrapper{
@@ -92,7 +100,7 @@ body {
     -webkit-text-stroke: 1px white;
     letter-spacing: -21px;
 }
- @keyframes aparecer {
+@keyframes aparecer {
         0% {
             opacity: 0;
         }
@@ -102,7 +110,19 @@ body {
         100% {
             opacity: 1;
         }
+}
+
+@keyframes sumir {
+    0% {
+        opacity: 1;
     }
+    99.9% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
 
 @keyframes animate{
 	from{
