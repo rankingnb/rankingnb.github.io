@@ -175,7 +175,9 @@ div.doze p{
     animation: aparecer-teste 40s ease 30s 1 normal;    
     animation-iteration-count: infinite;
 }
-
+.wrapper img{
+    max-height:161px;
+}
 .wrapper{
 	box-sizing: border-box;
     background: url(fundo-grande.png);
