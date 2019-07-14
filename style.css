@@ -182,7 +182,7 @@ div.doze p{
 	background-repeat: repeat;	
 	margin: 0;
 	text-align: center;
-	height: 100vh;
+	height: 110vh;
 	padding-top: 28px;
 	animation: animate 4s linear infinite;
 }
