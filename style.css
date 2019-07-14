@@ -178,9 +178,8 @@ div.doze p{
 
 .wrapper{
 	box-sizing: border-box;
-    background: url(fundo-fhd.png);
-	background-repeat: repeat;
-	background-size: contain;
+    background: url(fundo-grande.png);
+	background-repeat: repeat;	
 	margin: 0;
 	text-align: center;
 	height: 100vh;
