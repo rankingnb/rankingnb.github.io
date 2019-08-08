@@ -55,20 +55,20 @@ div.quinto p{
     animation-iteration-count: infinite;
 }
 div.sexto p{
-    color: #ffcb05;
+    color: #d2053d;
     text-shadow:black;
     opacity: 0;
     animation: aparecer-teste 40s ease 0.75s 1 normal forwards;
     animation-iteration-count: infinite;
 }
 div.setimo p{
-    color: #4B0082;
+    color: #ffcb05;
     opacity: 0;
     animation: aparecer-teste 40s ease 0.9s 1 normal forwards;
     animation-iteration-count: infinite;
 }
 div.oito p{
-    color: #d2053d;
+    color: #4B0082;
     opacity:0;
     animation: aparecer-teste 40s ease 10.9s 1 normal; 
     animation-iteration-count: infinite;
