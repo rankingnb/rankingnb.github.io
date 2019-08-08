@@ -93,12 +93,12 @@ div.onze p{
 }
 div.doze p{
     opacity:0;
-    color: #8B00FF;
     animation: aparecer-teste 40s ease 10.3s 1 normal;    
     animation-iteration-count: infinite;
 }
 .treze{
     opacity:0;
+    color: #8B00FF;
     animation: aparecer-teste 40s ease 10.15s 1 normal;    
     animation-iteration-count: infinite;
 }
